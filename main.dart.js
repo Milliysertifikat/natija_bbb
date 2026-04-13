@@ -22466,9 +22466,9 @@ this.b=b},
 afB:function afB(a,b,c){this.a=a
 this.b=b
 this.c=c},
-afE:function afE(a){this.a=a},
-afF:function afF(a,b){this.a=a
+afE:function afE(a,b){this.a=a
 this.b=b},
+afF:function afF(a){this.a=a},
 axV(a,b,c){var s,r=$.alh()
 A.pK(a)
 s=r.a.get(a)===B.kE
@@ -74397,11 +74397,11 @@ if(r==null)r=B.E
 p.oh(A.avF(q,q,r,!1,q,new A.afz(this,b),a,q,q,s,B.xw,!0,t.z))},
 O(a){var s,r,q,p=this,o=null,n=A.fD("Test kalitlarini kiriting("+p.x+")",o,o,o,A.f3(o,o,B.k,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),m=p.y.length
 m=A.aj4(new A.GD(new A.a7h(new A.afD(p),m,!0,!0,!0,o),o,B.b6,!1,o,o,B.y6,!1,o,m,B.ar,o,o,B.a8,B.at,o),1)
-s=A.amM(o,o,B.cn,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
-s=A.amL(A.fD("Tekshirish",o,o,o,A.f3(o,o,B.k,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.afE(p),s)
-r=A.amM(o,o,B.FT,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
+s=A.amM(o,o,B.FT,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
+s=A.amL(A.fD("Tozalash",o,o,o,A.f3(o,o,B.k,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.afE(p,a),s)
+r=A.amM(o,o,B.cn,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
 q=t.E
-return new A.xA(new A.tW(n,B.cn,!0,new A.OH(o,o,1/0,56),o),A.Ev(A.c([m,new A.Fe(1,o),new A.cN(B.BI,A.ajO(A.c([s,A.amL(A.fD("Tozalash",o,o,o,A.f3(o,o,B.k,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.afF(p,a),r)],q),B.bi,B.j4,B.cP),o)],q),B.bi,B.b0,B.cP),o)}}
+return new A.xA(new A.tW(n,B.cn,!0,new A.OH(o,o,1/0,56),o),A.Ev(A.c([m,new A.Fe(1,o),new A.cN(B.BI,A.ajO(A.c([s,A.amL(A.fD("Tekshirish",o,o,o,A.f3(o,o,B.k,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.afF(p),r)],q),B.bi,B.j4,B.cP),o)],q),B.bi,B.b0,B.cP),o)}}
 A.afG.prototype={
 $1(a){return a==="1"},
 $S:42}
@@ -74447,11 +74447,11 @@ A.afB.prototype={
 $0(){return this.a.a5W(this.b,this.c)},
 $S:0}
 A.afE.prototype={
-$0(){var s=this.a,r=s.Jm(s.y)
-if(!B.d.q(r,"\u2013"))s.rW(r)},
+$0(){this.a.X9(this.b)},
 $S:0}
 A.afF.prototype={
-$0(){this.a.X9(this.b)},
+$0(){var s=this.a,r=s.Jm(s.y)
+if(!B.d.q(r,"\u2013"))s.rW(r)},
 $S:0}
 A.a3j.prototype={}
 A.a92.prototype={}
